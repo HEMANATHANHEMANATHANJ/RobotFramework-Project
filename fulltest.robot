@@ -4,7 +4,6 @@ Library    SeleniumLibrary
 ${browser}  chrome
 ${url1}     https://demo.nopcommerce.com/
 ${url2}     https://tutorial.techaltum.com/htmlform.html
-${url3}
 *** Test Cases ***
     LogintoApplication
     Testingradiobutton
@@ -24,3 +23,4 @@ Testingradiobutton
     select checkbox     vehicle
     select checkbox    vehicle
     unselect checkbox    vehicle
+
